@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: "0 0 */2 * *"
+# Stupid GitHub Actions AUP
+#  schedule:
+#    - cron: "0 0 */2 * *"
 
 jobs:
   main:
